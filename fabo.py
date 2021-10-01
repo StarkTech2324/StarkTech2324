@@ -1,6 +1,5 @@
-n=int(input("Enter the number,that is the limit of Fibonacci serries :"))
-j=l=0
-k=1
+n=int(input("Enter the limit of Fibonacci serries :"))
+j,l,k=0,0,1
 print(k,end=' ')
 while(l<=n):
     l=j+k
